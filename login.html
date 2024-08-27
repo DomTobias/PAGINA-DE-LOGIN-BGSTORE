@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG STORE</title>
+    <link rel="shortcut icon" href="imagens/bg03.ico" type="image/x-icon">
+    <style>
+      
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        background-image: url("imagens/Fundoescuro.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    
+    h2{
+            color: #ffffff ;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-align: justify;
+        text-align: center;
+        }
+  
+
+    fieldset {
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        margin: auto;
+        width: 285px;
+        height: 425px;
+        border-color: rgb(255, 255, 255);
+    }
+    fieldset > h1 {
+        
+        text-align: center;
+        font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }  
+     .sty{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+     }
+     .entra {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        font-weight: bolder;
+        border-color: white;
+        background-color: black;
+        color: white;
+        border: 1px solid;
+        width: 82px;
+        text-decoration: none;
+        border-radius: 7px;
+        text-align: center;
+        font-size: 20px;
+     }
+     .ncenter{
+        text-align: left;
+        color: rgb(255, 255, 255);
+     }
+     .linkk{
+        text-align: right;
+     }
+     .linkk > a {
+        color: rgb(30, 0, 255);
+     }
+    </style>
+</head>
+<body>
+    <h2>Sejam  Bem Vindos</h2>
+                
+    <p>Encontre a essência do futebol em nossa loja, com camisas retrô<br> que revivem grandes momentos e ídolos históricos. <br> Cada peça traz de volta a magia dos jogos inesquecíveis.</p>
+    
+     
+    
+     
+        <form action="produtos.html" method="get" autocomplete="on">
+            <fieldset>
+                <h1>BG RETRÔ STORE</h1>
+                <h2>Login</h2>
+                <p class="ncenter">
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail"  class="sty" placeholder="Digite seu E-mail" required  autocomplete="email" size="29"> <br>
+                </p>
+                <p class="ncenter">
+                    <label for="isenha">Senha</label >
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Digite sua Senha" required class="sty" size="29" minlength="8">
+                </p>
+
+                <p>
+                    <input type="submit" value="Entrar" class="entra">
+                </p>
+                       
+                <p class="linkk"><a href="#">Esqueci a senha</a></p>
+            </fieldset>
+        </form>
+</body>
+</html>
